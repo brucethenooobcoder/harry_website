@@ -1,0 +1,1 @@
+this is lalit inside the static file
