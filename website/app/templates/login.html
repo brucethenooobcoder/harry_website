@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSS ProMan</title>
+
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>JSSATE-B</h1>
+        <h3>DBMS - Mini Project</h3>
+    </header>
+    <div class="login-options">
+        <h2>Login As</h2>
+        <button class="student" onclick="displayLogin()">Student</button>
+        <button class="faculty"
+        onclick="displayLogin()">Teacher</button>
+    </div>
+    <form action="ex.py" id="form" class="verify-login" method="post">
+        <label>USN</label>
+        <input type="text" required>
+        <label>Password</label>
+        <input type="password" required>
+        <input type="submit">
+    </form>
+    <p>New User?&ensp;<a href="/layout/register.html">Register here</a></p>
+</body>
+
+<script>
+    // function displayLogin(){
+    //     document.getElementById("form").style.display = "flex";
+    // }
+</script>
+</html>
